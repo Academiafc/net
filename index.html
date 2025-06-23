@@ -101,51 +101,35 @@
             </div>
         </section>
 
-        <section id="contacto" class="section-padded bg-light">
-            <h2>Contáctanos</h2>
-            <div class="contact-info">
-                <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+5492995218493">+54 9 299 521-8493</a></p>
-                <p><i class="fas fa-envelope"></i> Email: <a href="2025academiafc@gmail.com">2025academiafc@gmail.com</a></p>
-                <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/2995218493" target="_blank">+54 9 299 521-8493</a></p>
-            </div>
-           
-<section id="contacto" class="section-padded">
-    <h2>Formulario de Inscripción y Contacto</h2>
-    <p>¿Listo para unirte o tienes alguna consulta? Completa el formulario y nos pondremos en contacto a la brevedad.</p>
-    
-    <form action="https://formspree.io/f/mldnppay" method="POST" class="contact-form">
-        
-        <div class="form-group-grid">
-            <div class="form-group">
-                <label for="tutor-name">Nombre</label>
-                <input type="text" id="tutor-name" name="Tutor" placeholder="Ej: Maria López" required>
-            </div>
+        <section id="contacto" class="section-padded">
+            <h2>Formulario de Inscripción y Contacto</h2>
+            <p>¿Listo para unirte o tienes alguna consulta? Completa el formulario y nos pondremos en contacto a la brevedad.</p>
+            
+            <form action="https://formspree.io/f/mldnppay" method="POST" class="contact-form">
+                <div class="form-group-grid">
+                    <div class="form-group">
+                        <label for="tutor-name">Nombre</label>
+                        <input type="text" id="tutor-name" name="Tutor" placeholder="Ej: Maria López" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email de Contacto</label>
+                        <input type="email" id="email" name="Email" placeholder="ej: maria.lopez@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="birth-date">Fecha de Nacimiento</label>
+                        <input type="date" id="birth-date" name="Fecha de Nacimiento" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje o Consulta</label>
+                    <textarea id="message" name="Mensaje" rows="5" placeholder="Escribe aquí si tienes alguna duda..."></textarea>
+                </div>
+                <div class="form-group-submit">
+                    <button type="submit" class="btn-primary">Enviar Formulario</button>
+                </div>
+            </form>
+        </section>
 
-            <div class="form-group">
-                <label for="email">Email de Contacto</label>
-                <input type="email" id="email" name="Email" placeholder="ej: maria.lopez@correo.com" required>
-            </div>
-
-
-
-
-
-            <div class="form-group">
-                <label for="birth-date">Fecha de Nacimiento</label>
-                <input type="date" id="birth-date" name="Fecha de Nacimiento" required>
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label for="message">Mensaje o Consulta</label>
-            <textarea id="message" name="Mensaje" rows="5" placeholder="Escribe aquí si tienes alguna duda..."></textarea>
-        </div>
-
-        <div class="form-group-submit">
-            <button type="submit" class="btn-primary">Enviar Formulario</button>
-        </div>
-    </form>
-</section>
     </main>
 
     <footer>
